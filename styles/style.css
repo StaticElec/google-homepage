@@ -55,11 +55,62 @@ nav li {
 
 section {
     position: fixed;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    top: 12em;
+    left: 51em;
 }
 
+#logo {
+    margin-bottom: 1.5em;
+}
+
+#searchbar {
+    position: relative;
+    right: 9.5em;
+    margin-bottom: 1.5em;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    border-color: rgba(0, 0, 0, 0.16);
+}
+
+input {
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px;
+    text-align: start;
+}
+
+.search-button {
+    position: relative;
+    color: #272727;
+    background-color: rgba(0, 0, 0, 0.03);
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0.5em 1em;
+    margin: 1em;
+}
+.search-button:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.16);
+}
+
+#lang {
+    position: relative;
+    font-size: smaller;
+    text-align: start;
+    left: 5em;
+    margin-top: 2em;
+}
+
+#lang a:link {
+    color: blue;
+}
+
+#lang a:visited {
+    color: blue;
+}
 
 /*Footer*/
 
